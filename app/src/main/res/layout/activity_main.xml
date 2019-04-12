@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Number to words   "
+        style="@style/TextView"
+        />
+    <EditText
+        android:id="@+id/Number"
+        style="@style/EditText"
+        android:hint="Enter a 3 digit Number"
+        />
+    <Button
+
+        style="@style/TextView"
+        android:text="Convert"
+        android:id="@+id/btnConvert"
+        />
+
+    <TextView
+        android:id="@+id/Words"
+        style="@style/TextView"/>
+
+
+</LinearLayout>
